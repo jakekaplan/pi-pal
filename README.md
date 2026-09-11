@@ -2,6 +2,10 @@
 
 Give [Pi](https://github.com/earendil-works/pi) a little pixel-art pal. Pick a character, and it hangs out in your terminal, reacting to your conversation with animated expressions.
 
+![A wizard frog reacts to a conversation with curious and grateful animations](assets/pi-pal-demo.gif)
+
+*Generation wait shortened.*
+
 ## Install
 
 ```sh
