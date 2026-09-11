@@ -4,8 +4,6 @@ Give [Pi](https://github.com/earendil-works/pi) a little pixel-art pal. Pick a c
 
 ![A wizard frog reacts to a conversation with curious and grateful animations](assets/pi-pal-demo.gif)
 
-*Generation wait shortened.*
-
 ## Install
 
 ```sh
