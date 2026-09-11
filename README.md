@@ -13,7 +13,7 @@ pi install git:github.com/jakekaplan/pi-pal
 Set your default avatar:
 
 ```text
-/pi-pal default a small orange fox
+/pi-pal default frog with a wizard hat
 ```
 
 Make it a robot, a sleepy cat, or whatever you like. Setting an avatar turns on automatic reactions to Pi's replies.
