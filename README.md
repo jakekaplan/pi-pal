@@ -39,4 +39,18 @@ For a custom action, describe what you want: `/pi-pal do a little dance`. Your p
 | `/pi-pal stop` | Hide your pal and pause automatic reactions |
 | `/pi-pal on` | Turn automatic reactions back on |
 
-You can also reset custom emotions or clear saved animations from `/pi-pal` settings.
+## Settings and saved animations
+
+Your pal is saved across sessions and projects. By default, its files live in `~/.pi/agent/`:
+
+| File or folder | What's saved |
+| --- | --- |
+| `pi-pal.json` | Your avatar, corner, and automatic reaction preference |
+| `pi-pal/custom-emotions.json` | Custom actions your pal has learned |
+| `pi-pal/sprites/` | Generated images and animation frames |
+
+If you've set a custom Pi agent directory, the files live there instead.
+
+The first time your pal performs an action, it generates an animation. After that, it reuses the saved animation for the same avatar and action, including in future sessions. Repeating an action doesn't need another image-generation request; automatic reactions still use Luna to choose the action.
+
+Changing your avatar clears its old animations. To start fresh without changing your pal, open `/pi-pal` and choose **Clear cached images…**. You can also reset custom emotions there.
