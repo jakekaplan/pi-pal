@@ -8,7 +8,7 @@ Give [Pi](https://github.com/earendil-works/pi) a little pixel-art pal. Pick a c
 pi install git:github.com/jakekaplan/pi-pal
 ```
 
-Restart Pi or run `/reload`, then set your default avatar:
+Set your default avatar:
 
 ```text
 /pi-pal default a small orange fox
