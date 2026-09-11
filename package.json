@@ -1,0 +1,46 @@
+{
+  "name": "pi-pal",
+  "version": "0.1.0",
+  "description": "An animated pixel-art companion for Pi that reacts to assistant replies.",
+  "type": "module",
+  "keywords": ["pi-package", "pi-extension", "pixel-art", "avatar"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakekaplan/pi-pal.git"
+  },
+  "homepage": "https://github.com/jakekaplan/pi-pal#readme",
+  "bugs": "https://github.com/jakekaplan/pi-pal/issues",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "files": [
+    "index.ts",
+    "pal.ts",
+    "settings.ts",
+    "emotions.ts",
+    "emotions.json",
+    "sprites.ts",
+    "file-lock.ts"
+  ],
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules --experimental-strip-types --test *.test.ts"
+  },
+  "dependencies": {
+    "proper-lockfile": "^4.1.2",
+    "sharp": "^0.35.4"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": { "optional": true },
+    "@earendil-works/pi-tui": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/proper-lockfile": "^4.1.4"
+  }
+}
