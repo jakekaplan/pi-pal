@@ -27,11 +27,15 @@ Your main Pi conversation can use a different model. You'll also need a terminal
 
 ## Use
 
+Your pal reacts automatically as you chat, but you can also ask it to do something. It comes with 30 built-in actions, including `happy`, `thinking`, `celebrating`, and `waving`. Try `/pi-pal waving` to say hello.
+
+For a custom action, describe what you want: `/pi-pal do a little dance`. Your pal uses an existing action when it fits, or learns a new one and remembers it for future reactions.
+
 | Command | Action |
 | --- | --- |
 | `/pi-pal` | Change your avatar, corner, and other settings |
 | `/pi-pal happy` | Make your pal look happy |
-| `/pi-pal juggle some balls` | Try a custom action |
+| `/pi-pal do a little dance` | Request a custom action |
 | `/pi-pal stop` | Hide your pal and pause automatic reactions |
 | `/pi-pal on` | Turn automatic reactions back on |
 
